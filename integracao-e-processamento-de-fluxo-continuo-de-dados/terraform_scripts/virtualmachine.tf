@@ -40,8 +40,8 @@ resource "azurerm_virtual_machine" "vm-linux" {
 
     os_profile {
         computer_name = "ubuntu-aulas"
-        admin_username = var.nomeusuariovm
-        admin_password = var.senhausuariovm
+        admin_username = somethingcommingfromvar
+        admin_password = somethingcommingfromvar
     }
 
     os_profile_linux_config {
