@@ -50,7 +50,7 @@
     },
     {
       "cell_type": "code",
-      "execution_count": 1,
+      "execution_count": null,
       "metadata": {
         "colab": {
           "base_uri": "https://localhost:8080/"
@@ -58,43 +58,7 @@
         "id": "7owELzAT0jfG",
         "outputId": "22e12fcd-23ae-4198-c280-bd5f939733db"
       },
-      "outputs": [
-        {
-          "name": "stdout",
-          "output_type": "stream",
-          "text": [
-            "Looking in indexes: https://pypi.org/simple, https://us-python.pkg.dev/colab-wheels/public/simple/\n",
-            "Collecting azure-storage-blob\n",
-            "  Downloading azure_storage_blob-12.14.1-py3-none-any.whl (383 kB)\n",
-            "\u001b[K     |████████████████████████████████| 383 kB 5.0 MB/s \n",
-            "\u001b[?25hCollecting cryptography>=2.1.4\n",
-            "  Downloading cryptography-38.0.4-cp36-abi3-manylinux_2_24_x86_64.whl (4.0 MB)\n",
-            "\u001b[K     |████████████████████████████████| 4.0 MB 43.2 MB/s \n",
-            "\u001b[?25hCollecting msrest>=0.7.1\n",
-            "  Downloading msrest-0.7.1-py3-none-any.whl (85 kB)\n",
-            "\u001b[K     |████████████████████████████████| 85 kB 4.2 MB/s \n",
-            "\u001b[?25hCollecting azure-core<2.0.0,>=1.24.2\n",
-            "  Downloading azure_core-1.26.1-py3-none-any.whl (172 kB)\n",
-            "\u001b[K     |████████████████████████████████| 172 kB 52.6 MB/s \n",
-            "\u001b[?25hRequirement already satisfied: six>=1.11.0 in /usr/local/lib/python3.8/dist-packages (from azure-core<2.0.0,>=1.24.2->azure-storage-blob) (1.15.0)\n",
-            "Requirement already satisfied: typing-extensions>=4.0.1 in /usr/local/lib/python3.8/dist-packages (from azure-core<2.0.0,>=1.24.2->azure-storage-blob) (4.4.0)\n",
-            "Requirement already satisfied: requests>=2.18.4 in /usr/local/lib/python3.8/dist-packages (from azure-core<2.0.0,>=1.24.2->azure-storage-blob) (2.23.0)\n",
-            "Requirement already satisfied: cffi>=1.12 in /usr/local/lib/python3.8/dist-packages (from cryptography>=2.1.4->azure-storage-blob) (1.15.1)\n",
-            "Requirement already satisfied: pycparser in /usr/local/lib/python3.8/dist-packages (from cffi>=1.12->cryptography>=2.1.4->azure-storage-blob) (2.21)\n",
-            "Collecting isodate>=0.6.0\n",
-            "  Downloading isodate-0.6.1-py2.py3-none-any.whl (41 kB)\n",
-            "\u001b[K     |████████████████████████████████| 41 kB 554 kB/s \n",
-            "\u001b[?25hRequirement already satisfied: requests-oauthlib>=0.5.0 in /usr/local/lib/python3.8/dist-packages (from msrest>=0.7.1->azure-storage-blob) (1.3.1)\n",
-            "Requirement already satisfied: certifi>=2017.4.17 in /usr/local/lib/python3.8/dist-packages (from msrest>=0.7.1->azure-storage-blob) (2022.9.24)\n",
-            "Requirement already satisfied: urllib3!=1.25.0,!=1.25.1,<1.26,>=1.21.1 in /usr/local/lib/python3.8/dist-packages (from requests>=2.18.4->azure-core<2.0.0,>=1.24.2->azure-storage-blob) (1.24.3)\n",
-            "Requirement already satisfied: chardet<4,>=3.0.2 in /usr/local/lib/python3.8/dist-packages (from requests>=2.18.4->azure-core<2.0.0,>=1.24.2->azure-storage-blob) (3.0.4)\n",
-            "Requirement already satisfied: idna<3,>=2.5 in /usr/local/lib/python3.8/dist-packages (from requests>=2.18.4->azure-core<2.0.0,>=1.24.2->azure-storage-blob) (2.10)\n",
-            "Requirement already satisfied: oauthlib>=3.0.0 in /usr/local/lib/python3.8/dist-packages (from requests-oauthlib>=0.5.0->msrest>=0.7.1->azure-storage-blob) (3.2.2)\n",
-            "Installing collected packages: isodate, azure-core, msrest, cryptography, azure-storage-blob\n",
-            "Successfully installed azure-core-1.26.1 azure-storage-blob-12.14.1 cryptography-38.0.4 isodate-0.6.1 msrest-0.7.1\n"
-          ]
-        }
-      ],
+      "outputs": [],
       "source": [
         "pip install azure-storage-blob"
       ]
@@ -270,7 +234,7 @@
     },
     {
       "cell_type": "code",
-      "execution_count": 11,
+      "execution_count": null,
       "metadata": {
         "colab": {
           "base_uri": "https://localhost:8080/"
@@ -278,36 +242,7 @@
         "id": "JVlRyYt7m6_X",
         "outputId": "4bf58bc4-24f9-4634-e556-2fd1232276c5"
       },
-      "outputs": [
-        {
-          "name": "stdout",
-          "output_type": "stream",
-          "text": [
-            "Looking in indexes: https://pypi.org/simple, https://us-python.pkg.dev/colab-wheels/public/simple/\n",
-            "Collecting pyspark\n",
-            "  Downloading pyspark-3.3.1.tar.gz (281.4 MB)\n",
-            "\u001b[K     |████████████████████████████████| 281.4 MB 36 kB/s \n",
-            "\u001b[?25hCollecting py4j==0.10.9.5\n",
-            "  Downloading py4j-0.10.9.5-py2.py3-none-any.whl (199 kB)\n",
-            "\u001b[K     |████████████████████████████████| 199 kB 64.7 MB/s \n",
-            "\u001b[?25hBuilding wheels for collected packages: pyspark\n",
-            "  Building wheel for pyspark (setup.py) ... \u001b[?25l\u001b[?25hdone\n",
-            "  Created wheel for pyspark: filename=pyspark-3.3.1-py2.py3-none-any.whl size=281845512 sha256=e599f6f20beab390e0f7f07d60e430ea433a2f81c5ac4d3285f02d83f3709219\n",
-            "  Stored in directory: /root/.cache/pip/wheels/43/dc/11/ec201cd671da62fa9c5cc77078235e40722170ceba231d7598\n",
-            "Successfully built pyspark\n",
-            "Installing collected packages: py4j, pyspark\n",
-            "Successfully installed py4j-0.10.9.5 pyspark-3.3.1\n"
-          ]
-        },
-        {
-          "name": "stderr",
-          "output_type": "stream",
-          "text": [
-            "/usr/local/lib/python3.8/dist-packages/pyspark/sql/context.py:112: FutureWarning: Deprecated in 3.0.0. Use SparkSession.builder.getOrCreate() instead.\n",
-            "  warnings.warn(\n"
-          ]
-        }
-      ],
+      "outputs": [],
       "source": [
         "!pip install pyspark \n",
         " \n",
